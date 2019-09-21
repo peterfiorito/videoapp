@@ -27,7 +27,7 @@
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
     "serve": "10.0.2",
-    "video-react": "^0.13.1"
+    "video-react": "^0.14.1"
   },
   "browserslist": [
     ">0.2%",
