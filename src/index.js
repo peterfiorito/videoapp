@@ -1,8 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { Router,
-  Route } from 'react-router-dom'
+import { Router } from 'react-router-dom'
 import store, { history } from './store'
 import App from './containers/app'
 
@@ -15,11 +14,9 @@ const target = document.querySelector('#root')
 render(
   <Provider store={store}>
     <Router history={history}>
-      <Route path='/'>
       <div>
         <App />
       </div>
-      </Route>
     </Router>
   </Provider>,
   target
