@@ -29,7 +29,7 @@
     "redux": "^4.0.1",
     "redux-thunk": "2.3.0",
     "sanitize.css": "7.0.3",
-    "serve": "10.0.2",
+    "serve": "10.1.2",
     "video-react": "^0.14.1"
   },
   "browserslist": [
